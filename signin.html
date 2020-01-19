@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign In</title>
+        <style>
+            body{
+                background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+                margin: 0px;
+                padding: 0px;
+                text-align: center;
+                background-position: center;
+                font-family: fantasy;
+            }
+            .Form-title h1{
+                font-size: 32px;
+            }
+            .form-control{
+                width: 600px;
+                background: transparent;
+                border: none;
+                outline: none;
+                border-bottom: 1px solid gray;
+                color: #fff;
+                font-size: 18px;
+                margin-bottom: 16px;
+            } 
+        </style>
+
+     </head>
+        <body>
+        <div class="Form-title">
+            <h1>WELCOME!!</h1>
+            <h1>Kindly fill in the details</h1>
+        </div>
+        <div class="Form">
+                <form id="contact-form" method="POST" action="">
+                <input name="Name" type="text" class="form-control" placeholder="Full Name" required>
+                <br>
+                <input name="email" type="email" class="form-control" placeholder="Email ID" required><br>
+                <textarea name="message" class="form-control" placeholder="Message" row = "9" required></textarea><br>
+                <input type="submit" class="form-control submit" value="Any Query">    
+            </form>
+        </div>
+    </body>
+</html> 
